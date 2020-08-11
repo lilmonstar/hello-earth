@@ -6,11 +6,14 @@
 	font-family:'Poppins', sans-serif;
 }
 body{
-	background: url(bg.jpeg);
+	background:#1b1b1b;
 }
 nav{
 	background:#1b1b1b;
 }
+section{
+	background: url(bg.jpeg);
+} 
 nav:after{
 	content:'' ;
 	clear:both;
@@ -154,4 +157,7 @@ span .fa-plus{
 	[id^=btn]:checked + ul{
 		display:block;
 	} 
+	section{
+		width:100%;
+	}
 } 
